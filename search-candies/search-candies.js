@@ -11,6 +11,4 @@ const searchCandies = (search, maxPrice) => {
     }).map(candy => candy[0]);
 }
 
-console.log(searchCandies('s', 4));
-
 module.exports = searchCandies
